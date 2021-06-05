@@ -2,10 +2,7 @@ from flask import Flask, render_template, request, redirect, url_for, jsonify
 from blockchain import exchangerates, blockexplorer
 import requests
 import json
-from datetime import datetime
-from myblockchain import Blockchain
-from uuid import uuid4
-import random
+
 import hashlib
 
 
@@ -15,7 +12,7 @@ node_identifier = str(uuid4()).replace('-', '')
 
 blockchain = Blockchain()
 
-
+jkhglujo'/;hig
 @app.route('/')
 @app.route('/home')
 @app.route('/index')
